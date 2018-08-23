@@ -1,0 +1,119 @@
+*row {
+    width: auto;
+  
+  }
+  
+  
+  [class*="col-"] {
+    justify-content: center;
+    background:rgb(122, 220, 233);
+    font-family: 'Indie-flower', 'cursive';
+    color:#3a3a3a;
+    font-weight:30;
+    text-align: center;
+    flex-direction: column;
+   
+    
+  }
+  
+  
+  
+  .col-1-2 .col-md{
+   width: 16.66%;
+   
+    
+  }
+  
+  
+  
+  
+  
+  @-ms-viewport  {
+   
+   width: device-width;
+  
+   
+  }
+        
+  @media screen and (max-width: 800em){
+      .row .nav .col- .ul .li .img {
+          display: flex;
+          flex-grow: row wrap;
+          justify-content: center;
+        };   
+        @media screen and (max-width: 500em) {
+         .row .nav .col- .ul .li .img {
+             justify-content: space-around;
+           }
+       }
+       @media screen and (max-width: 300em){
+         .row  .nav .col- .ul .li .img {
+               flex-direction: column;
+           }
+       }     
+  
+  .col-3-11 .col-md {
+   width: 74.97%; 
+   
+  }
+  
+  
+  .img{
+   width: 4.5em;
+   height: 4.5em;
+  }
+  
+  @-ms-viewport {
+   width: device-width;
+  }
+  
+  @media screen and (max-width: 800em){
+  .row .nav .col- .ul .li .img {
+      display: flex;
+      flex-grow: row wrap;
+      justify-content: center;
+      color: crimson;
+    } 
+   } 
+  
+    @media  screen and(max-width: 500em) {
+      .row .nav .col- .ul .li .img {
+         justify-content: space-around;
+       }
+     
+      
+   
+  
+   @media screen and (max-width: 300em){
+     .row  .nav .col- .ul .li .img {
+           flex-direction: column;
+       }
+   }  
+  
+  .col-12 .col-sm{
+    width: 8.37%;
+  } 
+  
+  
+  
+  @-ms-viewport {
+    
+  }
+  
+    @media screen and (max-width: 800em){
+      .row .nav .col- .ul .li .img {
+          display: flex;
+          flex-grow: row wrap;
+          justify-content: center;
+        }   
+        @media screen and (max-width: 500em) {
+          .row .nav .col- .ul .li .img {
+             justify-content: space-around;
+           }
+       }
+       @media screen and (max-width: 300em){
+         .row .nav .col- .ul .li .img {
+               flex-direction: column;
+           }
+       }        
+   }}}
